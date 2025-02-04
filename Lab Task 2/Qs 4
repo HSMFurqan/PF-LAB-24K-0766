@@ -1,1 +1,11 @@
+INPUT: num1, num2 , operator
 
+IF operator == "+" THEN
+    result = num1 - (-num2)
+ELSE IF operator == "-" THEN
+    result = num1 - num2
+ELSE
+    PRINT "Invalid operator. Please enter '+' or '-'."
+END IF
+
+PRINT "Result"

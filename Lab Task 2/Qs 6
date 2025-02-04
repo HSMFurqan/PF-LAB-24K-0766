@@ -1,1 +1,27 @@
+INPUT: num1
+INPUT: operator (+, -, *, /, %)
+INPUT: num2
 
+IF operator == "+" THEN
+    result = num1 + num2
+ELSE IF operator == "-" THEN
+    result = num1 - num2
+ELSE IF operator == "*" THEN
+    result = num1 * num2
+ELSE IF operator == "/" THEN
+    IF num2 != 0 THEN
+        result = num1 / num2
+    ELSE
+        PRINT "Error: Division by zero"
+        EXIT
+ELSE IF operator == "%" THEN
+    IF num2 != 0 THEN
+        result = num1 MOD num2
+    ELSE
+        PRINT "Error: Division by zero"
+        EXIT
+ELSE
+    PRINT "Error: Invalid operator"
+    EXIT
+
+PRINT "Result: "

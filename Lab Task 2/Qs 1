@@ -1,1 +1,46 @@
+The following is a simplified flowchart for assembling a car at Toyota Indus Motors:
 
+Module 1: Body Welding
+
+- Receive body panels
+- Weld body panels together
+- Inspect for defects
+
+Module 2: Painting
+
+- Sand and clean body
+- Apply primer and paint
+- Inspect paint quality
+
+Module 3: Assembly
+
+- Install engine and transmission
+- Add electrical and plumbing components
+- Install interior components (seats, dashboard, etc.)
+
+Module 4: Quality Control
+
+- Inspect vehicle for defects
+- Check electrical and plumbing systems
+- Test drive vehicle
+
+Module 5: Final Inspection and Delivery
+
+- Inspect vehicle for final quality check
+- Prepare documents for delivery
+- Deliver vehicle to customer
+
+Decision Structures:
+
+- After Module 1: If defects found, rework and re-inspect
+- After Module 2: If paint quality issues, re-paint and re-inspect
+- After Module 3: If assembly issues, rework and re-inspect
+- After Module 4: If defects found, rework and re-inspect
+
+Pipeline Production Flow:
+
+1. Body Welding (Module 1)
+2. Painting (Module 2)
+3. Assembly (Module 3)
+4. Quality Control (Module 4)
+5. Final Inspection and Delivery (Module 5)

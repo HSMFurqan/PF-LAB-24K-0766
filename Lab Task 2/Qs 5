@@ -1,1 +1,10 @@
+INPUT: num
 
+IF num < 1 OR num > 12 THEN
+    PRINT "Error: Invalid month number. Please enter a number between 1 and 12."
+    EXIT
+
+months = ["January", "February", "March", "April", "May", "June", 
+          "July", "August", "September", "October", "November", "December"]
+
+PRINT "Month:"
